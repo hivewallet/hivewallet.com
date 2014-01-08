@@ -5267,3 +5267,13 @@ background:none }
 .carousel {height:auto;
 padding:0;
 margin:0 }
+
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url('Aleo-Regular.otf') format('opentype');
+}
+
+.aleo {
+  font-family: "Aleo-Regular", Aleo, serif;
+  letter-spacing: 1px;
+}
