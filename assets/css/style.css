@@ -5277,3 +5277,7 @@ margin:0 }
   font-family: "Aleo-Regular", Aleo, serif;
   letter-spacing: 1px;
 }
+
+#carousel-testimonials .carousel-indicators {
+    display: none;
+}
