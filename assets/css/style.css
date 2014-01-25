@@ -5281,3 +5281,27 @@ margin:0 }
 #carousel-testimonials .carousel-indicators {
     display: none;
 }
+
+.shots {
+  position: relative;
+  height: 550px;
+  width: 1100px;
+  margin: 0px auto;
+}
+
+.shots .shot {
+  position: absolute;
+}
+
+.shots .shot.blurred {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.shots .shot1 { left: -40px; z-index: 0; top: 170px; }
+.shots .shot2 { left: 120px; z-index: 1; top: 145px; }
+.shots .shot3 { left: 300px; z-index: 2; top: 120px; }
+.shots .shot4 { left: 520px; z-index: 1; top: 145px; }
+.shots .shot5 { left: 680px; z-index: 0; top: 170px; }
+
+#signup, #footer { z-index: 10; }
