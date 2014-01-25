@@ -3944,16 +3944,25 @@ cursor:pointer }
 
 .nav-pills>li {float:left }
 
-.nav-pills>li>a {border-radius:0;
-color:#fff }
+.nav-pills>li>a {
+  border-radius:0;
+  color:#fff;
+  font-weight:bold;
+}
 
-.nav-pills>li>a:hover {color:#fff;
-background-color:#404040 }
+.nav-pills>li>a:hover {
+  color:#fff;
+  background-color:#404040;
+  background-color:rgba(56, 96, 202, 0.75);
+}
 
 .nav-pills>li+li {margin-left:2px }
 
-.nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {color:#ffffff;
-background-color:#2b2b2b }
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {
+  color:#ffffff;
+  background-color:#2b2b2b;
+  background-color:rgba(25, 40, 80, 0.75);
+}
 
 .nav-stacked>li {float:none }
 
