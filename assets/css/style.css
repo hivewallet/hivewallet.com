@@ -882,6 +882,8 @@ float:none }
 
 @media (max-width: 767px){
 
+nav { display: none; }
+
 .table-responsive {width:100%;
 margin-bottom:15px;
 overflow-x:scroll;
