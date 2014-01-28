@@ -245,22 +245,12 @@ h1.logo {
 		margin-top: 30px;
 		padding: 20px;
 		border-radius: 8px;
-		-webkit-transition: all 0.2s ease-in-out;
-	     -moz-transition: all 0.2s ease-in-out;
-	       -o-transition: all 0.2s ease-in-out;
-	          transition: all 0.2s ease-in-out;
 		& i {
 			position: relative;
 			font-size: 80px;
 			padding: 20px 0;
 			margin: 10px 0 25px;
 			}
-	  &:hover {
-	  	cursor: pointer;
-		  margin-top: 30px;
-		  margin-bottom: 0;
-		  color: $brand-primary;
-	  }
 	  & .h4 {
 		  margin-top: 20px;
 	  }
