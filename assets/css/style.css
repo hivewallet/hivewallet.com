@@ -5306,3 +5306,7 @@ margin:0 }
 .shots .shot5 { left: 680px; z-index: 0; top: 170px; }
 
 #signup, #footer { z-index: 10; }
+
+#testimonials {
+  height: 280px;
+}
