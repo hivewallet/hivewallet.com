@@ -4606,6 +4606,14 @@ font-size:26px;
 opacity:0;
 font-weight:300 }
 
+.subtitle.requirements {
+  top: 465px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
 .animate-in .subtitle {left:48%;
 opacity:1;
 -webkit-transition-duration:0.5s;
