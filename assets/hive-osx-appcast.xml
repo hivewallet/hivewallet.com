@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Hive Changelog</title>
+        <link>https://hivewallet.com/hive-osx-appcast.xml</link>
+        <description>What's new in Hive</description>
+        <language>en</language>
+
+        <item>
+            <title>Hive 1.0</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h1 { font-family: Helvetica; font-weight: bold; font-size: 11pt; }
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h1>Hive is now officially 1.0, woohoo!</h1>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>first run wizard (only if you don't have a wallet yet)</li>
+                      <li>if your wallet is unencrypted, you will now see a warning on every start</li>
+                      <li>updated apps to latest versions</li>
+                      <li>added new Bitstamp app, BitPremier, Coinbase, and Prepaid Mobile Recharge apps</li>
+                      <li>"Get more apps" link on apps page</li>
+                      <li>sent amount on the transactions list will not include the fee</li>
+                      <li>fixed some problems with processing new transactions and transaction status changes</li>
+                      <li>Dropbox backup now uses ~/Dropbox/Hive-* folder for backups (unless you've already configured it) - we'll add a way to change this soon</li>
+                      <li>fixed some problems with backups</li>
+                      <li>UI improvements in send dialog</li>
+                      <li>fixed a few minor UI issues</li>
+                      <li>updated Finnish, French, German, Greek, Italian, Japanese, Polish, Russian, Serbian, Spanish, Swedish and Tagalog translations</li>
+                      <li>updated bitcoinj library</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 28 Jan 2014 19:29:41 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/2014012801/Hive-1.0.zip"
+            sparkle:version="2014012801"
+            sparkle:shortVersionString="1.0"
+            length="16591442"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIEF8HVusVGqBRj9g8xsLw2k4O8BorzC8EJjjXuOeAyXpAiAOAgXkQDu+dGAEipGP3AH09lv2njKX/MYhE1fYX2iE8A==" />
+        </item>
+    </channel>
+</rss>
