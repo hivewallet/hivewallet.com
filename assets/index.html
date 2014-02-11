@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script type="text/javascript">
-      if (window.location.protocol == "http:") window.location.replace("https:" + window.location.href.substr(5));
+    if (location.protocol == "http:" && location.hostname != 'localhost' &&
+        location.hostname != '127.0.0.1' && location.hostname != '0.0.0.0') {
+      location.replace("https:" + location.href.substr(5));
+    }
   </script>
 
   <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
