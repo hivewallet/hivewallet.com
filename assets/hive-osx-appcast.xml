@@ -9,6 +9,50 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.1</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>scanning QR codes - in send window, add contact form and in the top menu</li>
+                      <li>added button to display QR code for your own address</li>
+                      <li>added “Send feedback” option in menu (see “Help” menu)</li>
+                      <li>added info about source of exchange rates data (BitcoinAverage)</li>
+                      <li>added cancel button to contact form</li>
+                      <li>added warning notification if no backups are configured</li>
+                      <li>added App Store app - discover and install more apps</li>
+                      <li>updated Bitpremier, Bitstamp and Minefield apps</li>
+                      <li>Dropbox backup folder can be changed by holding Alt when clicking “Enable”</li>
+                      <li>additional local backups in the same directory, just in case everything else fails</li>
+                      <li>added Hungarian translation</li>
+                      <li>updated French, German, Greek, Polish, Romanian, Tagalog translations</li>
+                      <li>various minor UI improvements</li>
+                      <li>fixed crash on startup during Dropbox backup</li>
+                      <li>API: added a method do install other apps</li>
+                      <li>API: apps can specify which API version they require</li>
+                      <li>API: list of available currencies</li>
+                      <li>API: disabled WebKit same-origin policy hack</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 18 Feb 2014 20:07:25 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1/Hive-1.1.zip"
+            sparkle:version="2014021801"
+            sparkle:shortVersionString="1.1"
+            length="17740412"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIFsIl+RPxTWJtXPQEpTZj99/HBhM5JTgIX8LYGVEUoS2AiEAg24WWoYc2NmGQ6J4a3xi5l5mrfE8EDh3sQF/PMHkaOo=" />
+        </item>
+
+        <item>
             <title>Hive 1.0</title>
             <description>
                 <![CDATA[
