@@ -9,6 +9,40 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.1.1</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>fixed possible crash when opening QR code scanner or user's QR code popup</li>
+                      <li>improved QR code scanning</li>
+                      <li>fixed some UI issues on OSX 10.7</li>
+                      <li>fixed minor UI issues in some languages</li>
+                      <li>updated some translations</li>
+                      <li>added alert bar that shows up when network connection is down</li>
+                      <li>added social media links to "About" window</li>
+                      <li>API: added a way to get installed application info</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 24 Feb 2014 16:16:07 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1.1/Hive-1.1.1.zip"
+            sparkle:version="2014022401"
+            sparkle:shortVersionString="1.1.1"
+            length="17784972"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIBPcQaTlo4RzhWpzjsJaIG9koRa4iBdxFs5duvkA/2GhAiAvmCAbWl1R4TL+lgvZBH1lhrDz8OJ/GCLRHlFnOQv32w==" />
+        </item>
+
+        <item>
             <title>Hive 1.1</title>
             <description>
                 <![CDATA[
