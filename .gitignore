@@ -1,40 +1,45 @@
-*.sublime-*
+########################
+# sails
+########################
+.sails
+.waterline
+.rigging
+.tmp
 
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases #
-######################
+########################
+# node.js / npm
+########################
+lib-cov
+*.seed
 *.log
-*.sql
-*.sqlite
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+pids
+logs
+results
 
+node_modules
+
+npm-debug.log
+
+
+########################
+# misc / editors
+########################
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+
+
+########################
+# local config
+########################
+config/local.js
