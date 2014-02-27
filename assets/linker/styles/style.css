@@ -4682,9 +4682,9 @@ display:block;
 width:395px;
 height:539px }
 
-.slide-one {background:url("../img/logo.png") no-repeat 0 0 }
+.slide-one {background:url("/images/logo.png") no-repeat 0 0 }
 
-.slide-two {background:url("../img/slide02.png") no-repeat 0 0 }
+.slide-two {background:url("/images/slide02.png") no-repeat 0 0 }
 
 @media (min-width: 993px) and (max-width: 1199px){
 
@@ -4751,13 +4751,13 @@ max-width:264px }
 display:block;
 width:264px;
 height:360px;
-background:url("../img/logo_small.png") no-repeat 0 0 }
+background:url("/images/logo_small.png") no-repeat 0 0 }
 
 .slide-two {position:relative;
 display:block;
 width:264px;
 height:360px;
-background:url("../img/slide02-sm.png") no-repeat 0 0 }
+background:url("/images/slide02-sm.png") no-repeat 0 0 }
 
  }
 
@@ -4958,9 +4958,9 @@ display:block;
 width:395px;
 height:539px }
 
-.container.fixed-width .slide-one {background:url("../img/slide01.png") no-repeat 0 0 }
+.container.fixed-width .slide-one {background:url("/images/slide01.png") no-repeat 0 0 }
 
-.container.fixed-width .slide-two {background:url("../img/slide02.png") no-repeat 0 0 }
+.container.fixed-width .slide-two {background:url("/images/slide02.png") no-repeat 0 0 }
 
 html {-webkit-font-smoothing:antialiased }
 
@@ -4973,7 +4973,7 @@ body.fixed-width {min-width:1170px !important }
 
 body.color {background:#7d4282 }
 
-body.pattern {background:url("../img/bg.png") repeat }
+body.pattern {background:url("/images/bg.png") repeat }
 
 .wrap {position:relative;
 width:100%;
@@ -5007,7 +5007,7 @@ padding-bottom:0 }
 
 .wrap.newsletter {margin:0;
 padding:48px 0 40px;
-background:#fff url("../img/bg-newsletter.jpg") repeat-x;
+background:#fff url("/images/bg-newsletter.jpg") repeat-x;
 color:#484b56 }
 
 .wrap.footer {padding:70px 0;
@@ -5281,7 +5281,7 @@ margin:0 }
 
 @font-face {
   font-family: 'Aleo-Regular';
-  src: url('Aleo-Regular.otf') format('opentype');
+  src: url('/font/Aleo-Regular.otf') format('opentype');
 }
 
 .aleo {
@@ -5319,4 +5319,19 @@ margin:0 }
 
 #testimonials {
   height: 280px;
+}
+
+
+body { padding-top: 70px; }
+.navbar-fixed-top {
+  background-image:url('/images/header_bg.png');
+}
+.navbar-fixed-top li a {
+  height: 50px;
+  padding-top: 15px;
+}
+
+#footer .btn-icon {
+  margin-right: 0.25ex;
+  margin-left: 0.25ex;
 }

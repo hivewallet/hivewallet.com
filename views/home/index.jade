@@ -1,0 +1,166 @@
+extends template
+
+block content
+  div#slider.wrap.header
+    div.container
+      div.row
+        div.col-sm-12
+        div#sequence
+          ul.sequence-canvas
+            li.animate-in
+              h2.title Introducing&nbsp;&nbsp;
+                strong.aleo hive
+              h3.subtitle The fastest, easiest and safest way to use your bitcoins.
+              a.btn.btn-lg.btn-primary.btn-slide(href='https://github.com/hivewallet/hive-osx/releases/download/1.1.1/Hive-1.1.1.zip')
+                  i.fa.fa-desktop.fa-lg &nbsp;&nbsp;&nbsp;
+                  strong Mac OS X Download
+              p.subtitle.requirements Requires OSX 10.7 (Lion) or later.
+              div.slide-img
+                div.slide-one
+
+  div#features.wrap.highlight
+    div.container.text-center
+      div.row
+        div.col-sm-12
+          p.h2.aleo BEAUTIFULLY SIMPLE
+          p.h1.clearfix Hive has some brilliant features
+        div.col-sm-4
+          div.feature
+            img(src='/images/icons/wallets.png')
+            p.h4.aleo Wallet
+            p Hive makes it super-easy to create and manage a Bitcoin wallet and keep it secure.
+        div.col-sm-4
+          div.feature
+            img(src='/images/icons/contacts.png')
+            p.h4.aleo Contacts
+            p Create and organize your contacts; send and receive bitcoins in a matter of seconds.
+        div.col-sm-4
+          div.feature
+            img(src='/images/icons/apps.png')
+            p.h4.aleo Apps
+            p Hive provides some beautiful built-in apps, putting the best Bitcoin services at your fingertips.
+        div.col-sm-4
+          div.feature
+            img(src='/images/icons/backups.png')
+            p.h4.aleo Backups
+            p Setup backups through Dropbox and Time Machine. Never lose your coins again.
+        div.col-sm-4
+          div.feature
+            img(src='/images/icons/encryption.png')
+            p.h4.aleo Encryption
+            p Security is our primary goal. Be safe while you enjoy the Bitcoin ecosystem with Hive!
+        div.col-sm-4
+          div.feature
+            img(src='/images/icons/easy.png')
+            p.h4.aleo Easy to use
+            p With Hive you'll discover how easy and fast (and fun) it is to manage and enjoy your Bitcoin funds!
+
+
+
+
+  div#testimonials.wrap.content
+    div.container
+      div.row
+        div.col-sm-12
+          div#carousel-testimonials.carousel.slide
+            ol.carousel-indicators
+              li.active(data-target='#carousel-testimonials',data-slide-to='0')
+              li(data-target='#carousel-testimonials',data-slide-to='1')
+              li(data-target='#carousel-testimonials',data-slide-to='2')
+              li(data-target='#carousel-testimonials',data-slide-to='3')
+              li(data-target='#carousel-testimonials',data-slide-to='4')
+              li(data-target='#carousel-testimonials',data-slide-to='5')
+            div.carousel-inner
+
+              div.item.active
+                p.testimonial
+                  | &ldquo;The 
+                  strong.aleo Hive 
+                  | team have achieved something rare - a combination of great design, a laser-like focus on usability, and yet still remaining true to Satoshi's original vision of peer to peer decentralised wallets.&rdquo;
+                p.byline
+                  span.brand Mike Hearn
+                div.clearfix
+
+              div.item
+                p.testimonial &ldquo;It is beautiful. Great wallet!&rdquo;
+                p.byline
+                  span.brand John Delono
+                div.clearfix
+
+              div.item
+                p.testimonial &ldquo;Hands down the most attractive wallet in existence. I see this going a long way, especially with app integration. This could be the ultimate hub for bitcoin shopping.&rdquo;
+                p.byline
+                  span.brand Stunna Prime
+                div.clearfix
+
+              div.item
+                p.testimonial &ldquo;Glad to see developers paying attention to us Mac users. I think Hive is beautiful and very promising.&rdquo;
+                p.byline
+                  span.brand Neil Sardesai
+                div.clearfix
+
+              div.item
+                p.testimonial &ldquo;Finally a great looking wallet for Mac users. Looking forward to see this evolving!&rdquo;
+                p.byline
+                  span.brand Max Min
+                div.clearfix
+
+              div.item
+                p.testimonial &ldquo;Brillant and beautiful design!&rdquo;
+                p.byline
+                  span.brand Matt Allen
+                div.clearfix
+
+
+  div#special.wrap.highlight.iphone
+    div.container.text-center
+      div.row
+        div.col-sm-12
+          p.h1.clearfix Have a peek!
+        div.shots
+          img.shot.shot1.blurred(src='/images/shots/profile.png')
+          img.shot.shot2.blurred(src='/images/shots/contacts.png')
+          img.shot.shot3(src='/images/shots/transactions.png')
+          img.shot.shot4.blurred(src='/images/shots/apps.png')
+          img.shot.shot5.blurred(src='/images/shots/edit.png')
+
+
+  div#signup.wrap.newsletter
+    div.container
+      div.row
+        div.col-sm-6
+          p.note
+            | Stay connected and 
+            strong don't miss the updates
+            | !
+        include mailchimp.html
+
+
+  nav#nav.navbar.navbar-default.navbar-fixed-top
+    div.col-sm-8.col-sm-offset-2
+      ul.nav.nav-pills.nav-justified
+        li
+          a(href='#slider')
+            i.fa.fa-fw.fa-home
+            | &nbsp;Home
+        li
+          a(href='#features')
+            i.fa.fa-fw.fa-dashboard
+            | &nbsp;Features
+        li
+          a(href='#testimonials')
+            i.fa.fa-fw.fa-quote-left
+            | &nbsp;Reviews
+        li
+          a(href='#special')
+            i.fa.fa-fw.fa-eye
+            | &nbsp;Previews
+        li
+          a(href='#footer')
+            i.fa.fa-fw.fa-envelope
+            | &nbsp;Social
+
+
+  div.github-fork-ribbon-wrapper.right
+    div.github-fork-ribbon
+      a(href='https://github.com/hivewallet/hive-osx') Fork me on GitHub
