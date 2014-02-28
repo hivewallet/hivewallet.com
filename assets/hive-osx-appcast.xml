@@ -9,6 +9,37 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.1.2</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>added a lock screen at startup, to prevent someone using your computer from seeing your contacts or transaction list (you can also lock the wallet manually with Cmd+L)</li>
+                      <li>right-click context menu on the apps page - you can uninstall applications or contact the app author</li>
+                      <li>Dropbox backup will be stored in Apps subdirectory if it exists (unless it's already configured)</li>
+                      <li>updated App Store and Mobile Recharge apps</li>
+                      <li>fixed problem with disabled submit button in the "Send" dialog</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 28 Feb 2014 14:03:04 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1.2/Hive-1.1.2.zip"
+            sparkle:version="2014022801"
+            sparkle:shortVersionString="1.1.2"
+            length="18075535"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIBsAQ6qYEzAAht1zigbG1bpRpmgEVL8Uus6TZsVnWxmtAiA0bQ+s4jyGCtiC9BpD+gI76wEizdhXD2NnJGyTKM+LPQ==" />
+        </item>
+
+        <item>
             <title>Hive 1.1.1</title>
             <description>
                 <![CDATA[
