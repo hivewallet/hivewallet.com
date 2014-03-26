@@ -9,6 +9,40 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.1.4</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>Hive is now properly signed with Apple's certificate</li>
+                      <li>improved behavior of the dock icon badge</li>
+                      <li>added badge on the transactions tab icon in the sidebar</li>
+                      <li>added link to a FAQ in the Help menu</li>
+                      <li>fixed problem when migrating from an older version of Hive</li>
+                      <li>fixed possible crash caused by other Java software in the system</li>
+                      <li>updated App Store app</li>
+                      <li>updated Filipino, Japanese translations</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Wed, 26 Mar 2014 10:51:15 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.1.4/Hive-1.1.4.zip"
+            sparkle:version="2014032601"
+            sparkle:shortVersionString="1.1.4"
+            length="18288652"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIQCPcHI0WzfoIYaesloDnwqdUS262JmNzublX2Pmw6qMswIgXT/2kE7+HHOyvL3ViHh3rJYI9aDERIbpTMtJhlkLSZg=" />
+        </item>
+
+        <item>
             <title>Hive 1.1.3</title>
             <description>
                 <![CDATA[
