@@ -9,6 +9,39 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.2</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>added a preferences window (currently only global shortcuts settings)</li>
+                      <li>message signing tool</li>
+                      <li>super fast initial sync thanks to checkpoints file support</li>
+                      <li>lock screen can now be easily disabled</li>
+                      <li>fixed problem with Hive locking up when switching tabs on some computers</li>
+                      <li>fixed problem with overwriting old backups from a new wallet</li>
+                      <li>minor UI/UX fixes</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Wed, 23 Apr 2014 14:39:57 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.2/Hive-1.2.zip"
+            sparkle:version="2014042201"
+            sparkle:shortVersionString="1.2"
+            length="18782873"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIGFcvYNnvgVDa6jHwR9OcXkCRDm2q3Qfihd+UA59DevxAiAdIgXfEhqOpZNOwcv3AtqTlXsdvKYzInj/PMfbzEAe4g==" />
+        </item>
+
+        <item>
             <title>Hive 1.1.4</title>
             <description>
                 <![CDATA[
