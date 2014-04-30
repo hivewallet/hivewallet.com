@@ -9,6 +9,43 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.2.1</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>fixed crash in contact autocomplete</li>
+                      <li>fixed crash when trying to send whole wallet balance and the fee is too small</li>
+                      <li>fixed crash when sending or receving from multisig addresses (starting with 3)</li>
+                      <li>fixed handling of fiat amounts without a leading 0 (".50" interpreted as 50)</li>
+                      <li>fixed some problems in Bitstamp app</li>
+                      <li>error window will not show more than once at a time</li>
+                      <li>required fee should now be calculated correctly for large transactions</li>
+                      <li>protection from invalid transaction spam (1Sochi)</li>
+                      <li>improved compatibility with newest BitcoinQt wallets</li>
+                      <li>improved handling of bitcoin: URLs</li>
+                      <li>various UI fixes</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Wed, 30 Apr 2014 18:12:59 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.2.1/Hive-1.2.1.zip"
+            sparkle:version="2014043001"
+            sparkle:shortVersionString="1.2.1"
+            length="17230953"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIQCZRJtsJG6r2TUbvQ+FRcVkpmaxkm8dkzg92+zb810S0QIgdhDfzHBgqJFd4kHDoVaZok2wHS/ECWpKZrf/Bh038FA=" />
+        </item>
+
+        <item>
             <title>Hive 1.2</title>
             <description>
                 <![CDATA[
