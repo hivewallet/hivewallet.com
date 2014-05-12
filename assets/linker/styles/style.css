@@ -5332,11 +5332,12 @@ margin:0 }
   -webkit-filter: blur(1px);
 }
 
-.shots .shot1 { left: -40px; z-index: 0; top: 170px; }
-.shots .shot2 { left: 120px; z-index: 1; top: 145px; }
-.shots .shot3 { left: 300px; z-index: 2; top: 120px; }
-.shots .shot4 { left: 520px; z-index: 1; top: 145px; }
-.shots .shot5 { left: 680px; z-index: 0; top: 170px; }
+.shots .shot0 { left: -85px; z-index: 0; top: 150px; }
+.shots .shot1 { left:  15px; z-index: 1; top: 125px; }
+.shots .shot2 { left: 130px; z-index: 2; top: 100px; }
+.shots .shot3 { left: 470px; z-index: 2; top: 120px; }
+.shots .shot4 { left: 620px; z-index: 1; top: 145px; }
+.shots .shot5 { left: 710px; z-index: 0; top: 170px; }
 
 #signup, #footer { z-index: 10; }
 
