@@ -9,6 +9,39 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.3</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>Payment Protocol (BIP70) support</li>
+                      <li>payment details and confirmation note are displayed if provided by the merchant</li>
+                      <li>for verified merchants, payment window shows recipient's name instead of address and a green padlock icon</li>
+                      <li>new general preferences panel with settings related to contact name display and sorting</li>
+                      <li>region settings changes (e.g. number format or name sorting) are applied immediately</li>
+                      <li>transactions made from an app are displayed with the app's icon on the transaction list</li>
+                      <li>fixed some crashes related to transaction fee calculation</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Fri, 23 May 2014 20:19:27 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.3/Hive-1.3.zip"
+            sparkle:version="2014052305"
+            sparkle:shortVersionString="1.3"
+            length="17633693"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIB4kqiMcZ/jOfntiB1wHrFE0+hm/pPxizl4vF1uXpKGWAiEAh74Z5X1Qhgwe8qcP+qJVDHk8XSBl/hPHU/CpmmyOTnc=" />
+        </item>
+
+        <item>
             <title>Hive 1.2.1</title>
             <description>
                 <![CDATA[
