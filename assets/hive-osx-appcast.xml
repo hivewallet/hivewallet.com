@@ -9,6 +9,35 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.3.1</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>added Norwegian, Persian and Ukrainian translations</li>
+                      <li>updated Chinese Simplified, Filipino, German, Greek, Hungarian, Japanese, Portuguese and Spanish translations</li>
+                      <li>fixed possible crash during startup wizard</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 02 Jun 2014 09:59:23 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.3.1s/Hive-1.3.1s.zip"
+            sparkle:version="2014060201"
+            sparkle:shortVersionString="1.3.1"
+            length="18329923"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIE4V+nd5653TcM7ZzzdBo5kUGjkddLJqeQBLqwYayYCMAiEAqgcYWAb4Qa7y6MmIMk3RRMBd/+IpSTzIkpHTEvEzFa0=" />
+        </item>
+
+        <item>
             <title>Hive 1.3</title>
             <description>
                 <![CDATA[
