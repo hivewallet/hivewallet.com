@@ -17,11 +17,17 @@
   margin-bottom: 80px;
 
   ._image {
-    height: 350px;
+    height: 250px;
     max-width: 400px;
     margin: 0 auto;
-    opacity: 0.5;
-    background-color: #c1bcbc;
+    background-image: url('../img/iphone_crop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include breakpoint(portrait) {
+      height: 350px;
+    }
   }
 }
 
@@ -30,4 +36,20 @@
   @extend .features;
   padding-bottom: 20px;
   border-bottom: 1px solid #c1bcbc;
+}
+
+.i-face {
+  background-image: url('../img/simple.png')
+}
+
+.i-keys {
+  background-image: url('../img/security.png')
+}
+
+.i-multi {
+  background-image: url('../img/multi-currency.png')
+}
+
+.i-waggle {
+  background-image: url('../img/waggle.png')
 }

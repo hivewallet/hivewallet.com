@@ -1,6 +1,6 @@
 .heading-atom {
   @extend .jigsaw-bold;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .container-atom {
@@ -38,8 +38,7 @@
   }
 
   ._icon {
-    @include icon(50px, 50px, block);
-    background-color: $yellow;
+    @include icon(50px, 57px, block);
     float: left;
     margin-right: 15px;
   }
@@ -48,7 +47,7 @@
     @include media-obj;
     @extend .jigsaw-bold;
     font-size: 24px;
-    padding-top: 10px;
+    padding-top: 12px;
   }
 
   ._text {

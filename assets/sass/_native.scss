@@ -12,3 +12,11 @@
 .native__features {
   @extend .features;
 }
+
+.i-apple {
+  background-image: url('../img/osx.png')
+}
+
+.i-android {
+  background-image: url('../img/android.png')
+}

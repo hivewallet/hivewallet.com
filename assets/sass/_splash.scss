@@ -46,8 +46,11 @@
   width: 80px;
   height: 80px;
   margin: 0 auto;
-  background-color: $yellow;
   margin-bottom: 30px;
+  background-image: url('../img/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .splash__title {
@@ -63,12 +66,18 @@
 }
 
 .splash__image {
-  height: 450px;
+  height: 300px;
   max-width: 400px;
   margin: 0 auto;
   margin-bottom: 60px;
-  opacity: 0.5;
-  background-color: #c1bcbc;
+  background-image: url("../img/iphones_hero_x2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @include breakpoint(portrait) {
+    height: 450px;
+  }
 }
 
 .splash__btn {
@@ -94,4 +103,18 @@
   bottom: -40px;
   left: 50%;
   margin-left: -50px;
+
+
+  .i-arrow-down {
+    display: block;
+    height: 20px;
+    width: 40px;
+    margin: 0 auto;
+    padding-top: 120px;
+    background-image: url('../img/caret.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
 }
