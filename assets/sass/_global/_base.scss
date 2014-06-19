@@ -14,9 +14,9 @@ form,fieldset,legend,
 table,th,td,caption,
 figure,
 hr {
+  @extend .jigsaw-regular;
   margin:0;
   padding:0;
-  font-weight: $roman;
 }
 
 pre {
@@ -74,13 +74,12 @@ del,s {
 }
 
 html {
+  @extend .jigsaw-regular;
   width: 100%;
 
   font-size: $base_font_size;
   line-height: $base_line_height;
 
-  font-family: $sans;
-  font-weight: $roman;
   font-style: normal;
 
   text-align: center;

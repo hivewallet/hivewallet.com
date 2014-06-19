@@ -78,6 +78,7 @@
 
 .hivebtn {
   @include clickbtn;
+  @extend .jigsaw-medium;
   display: block;
   width: 100%;
 
