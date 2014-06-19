@@ -11,6 +11,10 @@
 .tech__title {
   @extend .heading-atom;
   padding-bottom: 60px;
+
+  @include breakpoint(portrait) {
+    font-size: 32px;
+  }
 }
 
 .tech__text {

@@ -7,6 +7,10 @@
 .intro__title {
   @extend .heading-atom;
   padding-bottom: 40px;
+
+  @include breakpoint(portrait) {
+    font-size: 32px;
+  }
 }
 
 .intro__image {

@@ -56,6 +56,10 @@
 .splash__title {
   @extend .heading-atom;
   padding-bottom: 10px;
+
+  @include breakpoint(portrait) {
+    font-size: 32px;
+  }
 }
 
 .splash__text {
