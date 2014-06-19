@@ -1,6 +1,10 @@
 .heading-atom {
   @extend .jigsaw-bold;
-  font-size: 32px;
+  font-size: 28px;
+
+  @include breakpoint(portrait) {
+    font-size: 32px;
+  }
 }
 
 .container-atom {
