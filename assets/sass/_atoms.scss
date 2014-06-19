@@ -1,6 +1,6 @@
 .heading-atom {
+  @extend .jigsaw-bold;
   font-size: 28px;
-  font-weight: $bold;
 }
 
 .container-atom {
@@ -46,13 +46,13 @@
 
   ._title {
     @include media-obj;
+    @extend .jigsaw-bold;
     font-size: 24px;
-    font-weight: $bold;
     padding-top: 10px;
   }
 
   ._text {
-    font-weight: $light;
+    @extend .jigsaw-light;
   }
 
   ._subtext {
@@ -69,10 +69,10 @@
   }
 
   ._version {
+    @extend .jigsaw-light;
     opacity: 0.5;
     display: block;
     font-size: 14px;
-    font-weight: $light;
   }
 }
 

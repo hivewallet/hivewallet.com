@@ -37,7 +37,7 @@ header,hgroup,menu,nav,section{
 
 
 strong,b,mark {
-  font-weight: $medium;
+  @extend .jigsaw-medium;
   font-style: normal;
 }
 
