@@ -1,23 +1,26 @@
 {
-  "name": "www-sails",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Hive Wallet website",
+  "name": "hive-launch",
+  "description": "Hive Launch Site",
+  "version": "0.1.0",
+  "author": {
+    "name": "Hive",
+    "url": "http://hivewallet.com"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
   "dependencies": {
-    "sails": "0.9.8",
-    "grunt": "0.4.1",
-    "sails-disk": "~0.9.0",
-    "ejs": "0.8.4",
-    "optimist": "0.3.4",
-    "jade": "~1.2.0",
-    "grunt-contrib-sass": "~0.7.2"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "debug": "node debug app.js"
-  },
-  "main": "app.js",
-  "repository": "https://github.com/hivewallet/hivewallet.com",
-  "author": "Hive Labes",
-  "license": "MIT"
+    "assemble": "0.4.7",
+    "grunt": "0.4.4",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-contrib-concat": "0.3.0",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-autoprefixer": "0.4.1",
+    "node-static": "0.7.1",
+    "open": "0.0.4",
+    "grunt-sass": "0.11.0",
+    "grunt-grunticon": "1.0.0",
+    "grunt-aws": "0.3.0"
+  }
 }

@@ -1,0 +1,116 @@
+.heading-atom {
+  font-size: 28px;
+  font-weight: $bold;
+}
+
+.container-atom {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.feature__item {
+
+  max-width: 280px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+
+  text-align: left;
+
+  @include breakpoint(portrait) {
+    margin: 0;
+    max-width: 100%;
+    width: 45%;
+  }
+
+  ._header {
+    @include clear;
+    padding-bottom: 20px;
+  }
+
+  ._icon {
+    @include icon(50px, 50px, block);
+    background-color: $yellow;
+    float: left;
+    margin-right: 15px;
+  }
+
+  ._title {
+    @include media-obj;
+    font-size: 24px;
+    font-weight: $bold;
+    padding-top: 10px;
+  }
+
+  ._text {
+    font-weight: $light;
+  }
+
+  ._subtext {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  ._link {
+    color: $blue;
+    font-size: 21px;
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  ._version {
+    opacity: 0.5;
+    display: block;
+    font-size: 14px;
+    font-weight: $light;
+  }
+}
+
+.hivebtn {
+  @include clickbtn;
+  display: block;
+  width: 100%;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 2px;
+
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  background-color: $blue;
+  box-shadow: 0 3px 0 0 darken($blue, 10%);
+
+  transition: none;
+  position: relative;
+
+  &:active {
+    transform: translate(0px, 3px);
+    box-shadow: 0 0px 0 0;
+  }
+
+  &:hover {
+    color: white;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+}

@@ -1,0 +1,20 @@
+  
+{{! Scripts ///////////////////////////////////////////////////// }}
+
+{{#if production}}
+
+  {{! minified single request blissssss }}
+  <script src="assets/js/app.js"></script>
+
+{{else}}
+
+  {{! will grab all the files from a folder and insert as script links }}
+  {{devscripts "assets/js/libs/*.js"}}
+  {{devscripts "assets/js/*.js"}}
+
+  {{! Live reload }}
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
+
+{{/if}}

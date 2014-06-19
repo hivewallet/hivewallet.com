@@ -1,0 +1,20 @@
+
+.tech {
+  @extend .container-atom;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-bottom: 1px solid #c1bcbc;
+}
+
+.tech__title {
+  @extend .heading-atom;
+  padding-bottom: 60px;
+}
+
+.tech__text {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}

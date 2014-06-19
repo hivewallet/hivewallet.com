@@ -1,45 +1,18 @@
-########################
-# sails
-########################
-.sails
-.waterline
-.rigging
-.tmp
 
-
-########################
-# node.js / npm
-########################
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-
-pids
-logs
-results
-
+# ignore node stuff
 node_modules
-
 npm-debug.log
+vendor
+tmp
 
+# ignore hidden stuff
+*.sublime-project
+*.sublime-workspace
+.sass-cache/
+.DS_Store
 
-########################
-# misc / editors
-########################
-*~
-*#
-.DS_STORE
-.netbeans
-nbproject
-.idea
+# ignore the public folder
+public/
 
-
-########################
-# local config
-########################
-config/local.js
+# ignore credentials to avoid people publishing aws keys
+credentials.json

@@ -1,0 +1,14 @@
+
+.native {
+  @extend .container-atom;
+  padding-top: 80px;
+}
+
+.native__title {
+  @extend .heading-atom;
+  padding-bottom: 60px;
+}
+
+.native__features {
+  @extend .features;
+}

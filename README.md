@@ -1,33 +1,37 @@
 # hivewallet.com
 
-## Server setup
+New launch site for the initial release of Hive's multi-currency HD wallet for web.
 
-### Linux/Debian/Ubuntu
-Ensure you have an updated version of nodejs and npm installed. Ubuntu repos often contain an old version, so it's recommend to use a more [up-to-date repo](https://launchpad.net/~chris-lea/+archive/node.js/).
-If you already had nodejs installed and need it updated, make sure to `sudo apt-get update && sudo apt-get upgrade`. Otherwise a `sudo apt-get install nodejs npm` should be sufficient.
+## Static build
+- [Assemble](http://assemble.io/) (.hbs)
+- Sass (.scss)
+- [Grunticon](https://github.com/filamentgroup/grunticon)
+- [Grunt-aws](https://github.com/jpillora/grunt-aws)
 
-Assuming nodejs/npm is correctly installed, the next step is to install Sails with `sudo npm -g install sails`. If you get lots of errors, you may not have an old version of nodejs installed. Use the PPA above if possible :)
+## Getting started
 
-To install gem for ruby, run:
-sudo apt-get install libgemplugin-ruby
+- After cloning the repository, `cd` into the folder and grab the node dependencies: `npm install`
+- Create a credentials.json file in the root folder (see below) - this doesn't need correct details yet, it's just so that grunt doesn't wig out over the missing file.
+- Build the project: `grunt`
+- When you're ready to start tinkering, watch for changes: `grunt watch`
+- Finally, fire up the static server: `node server`
 
-### Mac
-`brew install node`
+## Deployment
 
-### Windows
-Install node from http://nodejs.org/download/ and open the node command prompt.
+- Create an s3 bucket on your AWS account
+- Create a `credentials.json` file in the root folder
+- Put the relevant details (name, keys, region etc.)
+- `grunt s3` to deploy
 
-## Project setup
+**note:** The credentials file is ignored by git so that you don't accidently publish your private aws keys to a public repo. That means if you're sharing a project you'll need to get each person to setup a credentials file on their local machine.
+
+Example credentials:
+
+```json
+{
+  "accessKeyId": "short string of numbers and letters",
+  "secretAccessKey": "long string of numbers and letters",
+  "bucketName": "my.bucket.com",
+  "bucketRegion": "ap-southeast-2"
+}
 ```
-npm -g install sails
-cd ~
-git clone git@github.com:hivewallet/hivewallet.com.git
-cd hivewallet.com
-git submodule init
-git submodule update
-sudo gem install sass
-npm install -d
-sails lift
-```
-
-Sails will report the interface/port it's listening on. To make configuration changes for different environments, modify config/local.js.

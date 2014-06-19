@@ -1,0 +1,45 @@
+
+
+
+// Global style variables
+// ------------------------------------------------------------------------------------
+
+
+// font family - update these when external fonts are setup
+
+$sans:   'Jigsaw', sans-serif;
+$serif:  serif;
+
+
+// font weights should be descriptive
+
+$light:     300;
+$roman:     400;
+$medium:    500;
+$semibold:  600;
+$bold:      700;
+
+
+// font sizes generally used on the html element and some mixins
+
+$base_font_size: 16px;
+$base_line_height: 1.5;
+
+// But most colour variables should use obvious names (green, red, etc..)
+
+$yellow: #FFCB00;
+$blue: #0974E9;
+$orange: #F3AA03;
+
+
+// Sometimes abstract terms are useful:
+
+$foreground:          #414244;
+$background:          #FFFFFF;
+
+$focus_color:         #4fa1fd;
+$alert_color:         #fd9833;
+
+
+
+

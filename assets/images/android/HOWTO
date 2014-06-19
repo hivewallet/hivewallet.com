@@ -1,6 +1,0 @@
-- rescale screenshot to height of 550px
-- apply filter: Light and Shadow -> Drop Shadow:
-  - no offsets
-  - blur radius: 56
-  - opacity: 80
-- final image should have height of 662px
