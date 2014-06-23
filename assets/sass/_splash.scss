@@ -6,9 +6,15 @@
   justify-content: space-between;
   padding: 10px;
   background-color: #D8D8D8;
-  max-width: 250px;
+  max-width: 240px;
   margin: 0 auto;
   margin-bottom: 50px;
+
+  .nav__link {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
 
   &:before {
     content: '';
