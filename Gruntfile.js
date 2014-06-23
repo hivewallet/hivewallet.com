@@ -228,24 +228,8 @@ module.exports = function(grunt) {
     clean: {
       all: ['public/dev/', 'public/production/'],
       html: ['public/dev/**/*.html', 'public/production/**/*.html']
-    },
-
-  // --------------------------------------------------------------------------------- \\
-
-    aws: grunt.file.readJSON('credentials.json'),
-
-    s3: {
-      options: {
-        accessKeyId: '<%= aws.accessKeyId %>',
-        secretAccessKey: '<%= aws.secretAccessKey %>',
-        bucket: '<%= aws.bucketName %>',
-        region: '<%= aws.bucketRegion %>'
-      },
-      build: {
-        cwd: 'public/production/',
-        src: '**'
-      }
     }
+
   });
 
   // --------------------------------------------------------------------------------- \\

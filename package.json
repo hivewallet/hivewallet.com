@@ -20,7 +20,6 @@
     "node-static": "0.7.1",
     "open": "0.0.4",
     "grunt-sass": "0.11.0",
-    "grunt-grunticon": "1.0.0",
-    "grunt-aws": "0.3.0"
+    "grunt-grunticon": "1.0.0"
   }
 }
