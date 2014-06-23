@@ -64,7 +64,7 @@
   padding-bottom: 10px;
 
   @include breakpoint(portrait) {
-    font-size: 32px;
+    font-size: 40px;
   }
 }
 
@@ -73,13 +73,17 @@
   margin: 0 auto;
   line-height: 1.3;
   padding-bottom: 60px;
+
+  @include breakpoint(portrait) {
+    font-size: 18px;
+  }
 }
 
 .splash__image {
   height: 300px;
   max-width: 400px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   background-image: url("../img/iphones_hero_x2.png");
   background-size: contain;
   background-position: center;
