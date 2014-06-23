@@ -3,17 +3,20 @@
 .nav {
   position: relative;
   display: flex;
-  height: 38px;
+  height: 42px;
   justify-content: space-between;
   padding: 10px;
-  background-color: #D8D8D8;
-  max-width: 200px;
+  margin: 10px;
+  max-width: 260px;
   margin: 0 auto;
   margin-bottom: 50px;
+  background-image: url('/assets/img/banner.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 
   @include breakpoint(portrait) {
-    max-width: 240px;
-    height: 42px;
+    max-width: 320px;
+    height: 64px;
   }
 
   .nav__link {
@@ -27,37 +30,8 @@
     }
   }
 
-  &:before {
-    content: '';
-    @include icon(46px, 38px, block);
-    background-image: url('/assets/img/left-edge.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    left: -44px;
-    top: -2px;
 
-    @include breakpoint(portrait) {
-      width: 53px;
-      height: 44px;
-    }
-  }
 
-  &:after {
-    content: '';
-    @include icon(46px, 38px, block);
-    background-image: url('/assets/img/right-edge.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    right: -44px;
-    top: -2px;
-
-    @include breakpoint(portrait) {
-      width: 53px;
-      height: 44px;
-    }
-  }
 }
 
 // ---------------------------------------- //
