@@ -3,38 +3,60 @@
 .nav {
   position: relative;
   display: flex;
+  height: 38px;
   justify-content: space-between;
   padding: 10px;
   background-color: #D8D8D8;
-  max-width: 240px;
+  max-width: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
+
+  @include breakpoint(portrait) {
+    max-width: 240px;
+    height: 44px;
+  }
 
   .nav__link {
     width: 100%;
     display: inline-block;
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
+
+    @include breakpoint(portrait) {
+      font-size: 16px;
+    }
   }
 
   &:before {
     content: '';
-    @include icon(53px, 44px, block);
+    @include icon(46px, 38px, block);
     background-image: url('/assets/img/left-edge.svg');
     background-repeat: no-repeat;
+    background-size: contain;
     position: absolute;
-    left: -52px;
+    left: -40px;
     top: 0px;
+
+    @include breakpoint(portrait) {
+      width: 53px;
+      height: 44px;
+    }
   }
 
   &:after {
     content: '';
-    @include icon(53px, 44px, block);
+    @include icon(46px, 38px, block);
     background-image: url('/assets/img/right-edge.svg');
     background-repeat: no-repeat;
+    background-size: contain;
     position: absolute;
-    right: -52px;
+    right: -40px;
     top: 0px;
+
+    @include breakpoint(portrait) {
+      width: 53px;
+      height: 44px;
+    }
   }
 }
 
