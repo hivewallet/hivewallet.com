@@ -2,9 +2,12 @@
 .tech {
   @extend .container-atom;
   padding-top: 50px;
-  padding-bottom: 60px;
-  max-width: 540px;
+}
+
+.tech__wrapper {
   margin: 0 auto;
+  max-width: 540px;
+  padding-bottom: 60px;
   border-bottom: 1px solid #c1bcbc;
 }
 
@@ -21,8 +24,6 @@
   @extend .jigsaw-light;
   margin: 0 auto;
   padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
 
   @include breakpoint(portrait) {
     padding-left: 0;
