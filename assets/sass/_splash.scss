@@ -13,7 +13,7 @@
 
   @include breakpoint(portrait) {
     max-width: 240px;
-    height: 44px;
+    height: 42px;
   }
 
   .nav__link {
@@ -34,8 +34,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: -40px;
-    top: 0px;
+    left: -44px;
+    top: -2px;
 
     @include breakpoint(portrait) {
       width: 53px;
@@ -50,8 +50,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    right: -40px;
-    top: 0px;
+    right: -44px;
+    top: -2px;
 
     @include breakpoint(portrait) {
       width: 53px;
