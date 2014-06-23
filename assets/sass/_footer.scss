@@ -43,8 +43,10 @@
   max-width: 400px;
   margin: 0 auto;
   input {
+    -webkit-appearance: none;
     background-color: $yellow;
     border: 1px solid darken($yellow, 10%);
+    border-radius: 0;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding-left: 10px;
@@ -52,6 +54,7 @@
     width: 70%;
     float: left;
     height: 50px;
+
 
     &:focus {
       outline: none;
@@ -69,7 +72,6 @@
     border-radius: 0;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    padding-top: 5px;
   }
 
 }
