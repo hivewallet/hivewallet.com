@@ -59,18 +59,19 @@
     }
   }
 
-  a {
+  input[type="submit"] {
+    margin-left: -1px;
     width: 30%;
     height: 50px;
     float: left;
     background-color: $orange;
     border: 1px solid darken($yellow, 10%);
-    border-left: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-top: 11px;
-
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-top: 5px;
   }
+
 }
 
 ::-webkit-input-placeholder {
