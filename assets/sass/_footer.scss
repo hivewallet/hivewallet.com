@@ -7,7 +7,7 @@
 
 .footer__title {
   @extend .heading-atom;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 
   @include breakpoint(portrait) {
     font-size: 32px;
