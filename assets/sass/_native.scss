@@ -15,6 +15,27 @@
 
 .native__features {
   @extend .features;
+
+  .feature__item {
+    ._link {
+      @extend .jigsaw-medium;
+      display: inline-block;
+      font-size: 18px;
+    }
+
+  }
+  ._subtext {
+    text-align: left;
+
+    ._icon {
+      @include icon(35px, 40px, block);
+      float: left;
+      margin-top: 5px;
+      margin-right: 10px;
+    }
+
+  }
+
 }
 
 .i-apple {
@@ -23,4 +44,8 @@
 
 .i-android {
   background-image: url('../img/android.png')
+}
+
+.i-download {
+  background-image: url('../img/download.png')
 }
