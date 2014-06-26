@@ -9,6 +9,38 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.3.2</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>fixed compatibility with latest version of Dropbox</li>
+                      <li>fixed some problems caused by custom versions of Java installed in the system</li>
+                      <li>fixed possible crash in send window when pressing enter</li>
+                      <li>fixed handling of fiat currency amount in some languages/currencies</li>
+                      <li>added Thai translation</li>
+                      <li>updated Arabic, Danish, Dutch, Swedish and Urdu translations</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Thu, 26 Jun 2014 12:07:56 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.3.2/Hive-1.3.2.zip"
+            sparkle:version="2014062601"
+            sparkle:shortVersionString="1.3.2"
+            length="18568043"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIDcVvlXlb8gmlYknEetLywe/pEa/lbeyBd1FKutGMD8kAiEAk1TDKTZfoB6IsCQvYy7wDkbpeK6JZrGka3GZrOhCQhs=" />
+        </item>
+
+        <item>
             <title>Hive 1.3.1</title>
             <description>
                 <![CDATA[
