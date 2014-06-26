@@ -142,6 +142,22 @@ module.exports = function(grunt) {
             filter: 'isFile'
           }
         ]
+      },
+      appcast: {
+        files: [
+          {
+            expand: true,
+            cwd: 'assets/appcast',
+            src: ['*.xml'],
+            dest: 'public/dev/'
+          },
+          {
+            expand: true,
+            cwd: 'assets/appcast',
+            src: ['*.xml'],
+            dest: 'public/production/'
+          }
+        ]
       }
     },
 
