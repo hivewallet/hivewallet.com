@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="reddit" unicode="&#xe800;" d="m0 353q0 62 50 106t112 44q62 0 105-36l5 0q134 82 335 82l5 4l70 267l242-36q0-1 2-1q1 0 0 1q2 1 12 16t14 18q34 32 82 32q49 0 83-32t33-82t-33-84t-83-35q-57 0-87 39t-30 96q-2-1-97 13t-110 17l-3 0q-2-2-16-53t-30-109t-18-64l0-3l5-4q72 0 148-20t130-58l3-2q1 1 2 1t2 1q25 18 36 25t29 13t43 6q68 0 116-48t48-117q0-47-26-86t-70-60q0-195-260-303q-41-18-56-23q-32-10-91-19t-93-9q-120 0-231 35q-2 2-72 38q-95 51-152 116t-58 156l-5 0q-33 17-59 50l-9 12q-15 27-19 46t-4 50z m34-12q0-66 57-112q5 59 48 116t101 101q-37 26-82 26q-49 0-86-40t-38-91z m102-146q0-54 31-104t80-85t102-60t105-34q75-14 146-14q123 0 233 39t185 123l-3 0q30 38 43 69t13 72q0 54-26 103t-70 84t-92 61t-100 38q-85 23-181 23q-74 0-151-18t-150-54t-119-99t-46-144z m186 73q0 37 23 60t59 22t62-22t25-60q0-36-25-60t-62-24t-59 24t-23 60z m36-164l44 0q25-45 80-68t111-24q58 0 110 24t84 68l41 0q-25-62-93-96t-142-34q-72 0-141 35t-94 95z m336 164q0 38 23 60t61 22q34 0 58-24t24-58t-24-59t-58-25q-37 0-60 24t-24 60z m255 468q0-35 25-60t60-25q36 0 59 25t23 60q0 34-24 58t-58 24t-59-24t-26-58z m14-281q55-36 95-92t56-120q59 43 59 96q0 58-35 100t-93 42q-45 0-82-26z" horiz-adv-x="1205" />
+</font>
+</defs>
+</svg>
