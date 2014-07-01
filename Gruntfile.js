@@ -58,12 +58,7 @@ module.exports = function(grunt) {
         // watch for changes in the icon folder
         files: 'assets/icons/svg/*.svg',
         tasks: ['grunticon']
-      },
-
-      osx: {
-        files: ['assets/osx/**/*'],
-        tasks: ['copy:osx']
-      },
+      }
     },
 
   // --------------------------------------------------------------------------------- \\
@@ -161,22 +156,6 @@ module.exports = function(grunt) {
             cwd: 'assets/appcast',
             src: ['*.xml'],
             dest: 'public/production/'
-          }
-        ]
-      },
-      osx: {
-        files: [
-          {
-            expand: true,
-            cwd: 'assets/osx',
-            src: ['**/*'],
-            dest: 'public/dev/osx'
-          },
-          {
-            expand: true,
-            cwd: 'assets/osx',
-            src: ['**/*'],
-            dest: 'public/production/osx'
           }
         ]
       }
