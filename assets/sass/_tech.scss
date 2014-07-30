@@ -25,6 +25,11 @@
   margin: 0 auto;
   padding-bottom: 20px;
 
+  a {
+    @extend .jigsaw-medium;
+    color: $blue;
+  }
+
   @include breakpoint(portrait) {
     padding-left: 0;
     padding-right: 0;
