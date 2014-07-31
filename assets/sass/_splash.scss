@@ -6,7 +6,7 @@
   height: 42px;
   justify-content: center;
   padding: 10px;
-  padding-left: 26px;
+  padding-left: 40px;
   padding-right: 48px;
   margin: 10px;
   max-width: 300px;
@@ -19,7 +19,7 @@
   @include breakpoint(portrait) {
     max-width: 400px;
     height: 64px;
-    padding-left: 48px;
+    padding-left: 60px;
     padding-right: 68px;
     padding-top: 20px;
     margin-top: -10px;
