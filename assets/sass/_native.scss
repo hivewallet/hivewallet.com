@@ -6,10 +6,28 @@
 
 .native__title {
   @extend .heading-atom;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 
   @include breakpoint(portrait) {
     font-size: 32px;
+  }
+}
+
+
+.native__text {
+ @extend .jigsaw-light;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  max-width: 455px;
+
+  a {
+    @extend .jigsaw-medium;
+    color: $blue;
+  }
+
+  @include breakpoint(portrait) {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

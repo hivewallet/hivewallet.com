@@ -33,3 +33,10 @@
 
 // js mechanics
 @import "_global/_javascript";
+
+// hacks
+.break-text--portrait {
+  @include breakpoint (portrait) {
+    display: block;
+  }
+}

@@ -39,6 +39,7 @@ header,hgroup,menu,nav,section{
 strong,b,mark {
   @extend .jigsaw-medium;
   font-style: normal;
+  font-weight: normal;
 }
 
 em,i,cite,q,address,dfn,var {
@@ -93,6 +94,10 @@ html {
   background-color: $background;
 
   overflow-y: scroll;
+
+  @include breakpoint(portrait) {
+    font-size: 20px;
+  }
 }
 
 body {
