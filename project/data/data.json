@@ -1,0 +1,44 @@
+{
+  "team": [
+    {
+      "name": "Wendell Davis",
+      "image": "wendell_hive.png"
+    },
+    {
+      "name": "Wei Lu",
+      "image": "wei_hive.png"
+    },
+    {
+      "name": "Taylor Gerring",
+      "image": "taylor_hive.png"
+    },
+    {
+      "name": "Jakub Suder",
+      "image": "kuba_hive.png"
+    },
+    {
+      "name": "Jan Vornberger",
+      "image": "jan_hive.png"
+    },
+    {
+      "name": "Karla Benavidez",
+      "image": "karla_hive.png"
+    },
+    {
+      "name": "Nik Shumacher",
+      "image": "nik_hive.png"
+    },
+    {
+      "name": "Ben Jennings",
+      "image": "ben_hive.png"
+    },
+    {
+      "name": "David Hauser",
+      "image": "dave_hive.png"
+    },
+    {
+      "name": "Matt Innes",
+      "image": "matt_hive.png"
+    }
+  ]
+}
