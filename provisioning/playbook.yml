@@ -1,0 +1,74 @@
+---
+- hosts: web
+  sudo: yes
+  tasks:
+    - name: add node.js repository
+      apt_repository: repo='ppa:chris-lea/node.js'
+
+    - name: update software
+      apt: update_cache=yes upgrade=dist
+
+    - name: install apt packages
+      apt: state=present pkg={{ item }}
+      with_items:
+        - nginx
+        - nodejs
+        - git-core
+
+    - name: install npm globals
+      npm: state=present global=yes name={{ item }}
+      sudo: yes
+      with_items:
+        - grunt-cli
+
+    - name: create app directory
+      file: state=directory path={{ app_dir }} owner={{ app_user }} group={{ app_user }}
+
+    - name: copy files to app dir
+      shell: rsync -av --exclude='.git' --exclude='provisioning' --exclude='public' /vagrant/ {{ app_dir }}
+      sudo_user: "{{ app_user }}"
+      tags:
+        - update
+
+    - name: install dependencies
+      shell: npm install chdir="{{ app_dir }}"
+      sudo_user: "{{ app_user }}"
+      tags:
+      - update
+
+    - name: run grunt
+      shell: grunt chdir="{{ app_dir }}"
+      tags:
+      - update
+      notify: reload nginx
+
+    - name: remove default nginx site
+      file: path=/etc/nginx/sites-enabled/default state=absent
+      notify: reload nginx
+
+    - name: Copy nginx configuration for site
+      template: src={{ nginx_template }} dest=/etc/nginx/sites-available/{{ app_name }}
+      tags:
+        - update
+        - touch
+
+    - name: link sites-availible to sites-enabled
+      file: src=/etc/nginx/sites-available/{{ app_name }} dest=/etc/nginx/sites-enabled/{{ app_name }} state=link
+      notify: reload nginx
+      tags:
+        - update
+        - touch
+
+    - name: start nginx
+      service: name=nginx state=started enabled=true
+
+  handlers:
+    - name: reload nginx
+      service: name=nginx state=reloaded
+
+  vars:
+    app_user: vagrant
+    app_name: www
+    app_dir: "{{ base_dir }}/{{ app_name }}"
+    base_dir: /home/{{ app_user }}
+    nginx_template: nginx-static.conf
