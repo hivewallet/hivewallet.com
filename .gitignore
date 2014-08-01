@@ -16,3 +16,6 @@ public/
 
 # ignore credentials to avoid people publishing aws keys
 credentials.json
+
+# vagrant
+.vagrant/

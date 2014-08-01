@@ -19,20 +19,4 @@ New launch site for the initial release of Hive's multi-currency HD wallet for w
 
 ## Deployment
 
-- Create an s3 bucket on your AWS account
-- Create a `credentials.json` file in the root folder
-- Put the relevant details (name, keys, region etc.)
-- `grunt s3` to deploy
-
-**note:** The credentials file is ignored by git so that you don't accidently publish your private aws keys to a public repo. That means if you're sharing a project you'll need to get each person to setup a credentials file on their local machine.
-
-Example credentials:
-
-```json
-{
-  "accessKeyId": "short string of numbers and letters",
-  "secretAccessKey": "long string of numbers and letters",
-  "bucketName": "my.bucket.com",
-  "bucketRegion": "ap-southeast-2"
-}
-```
+Use [Vagrant](http://www.vagrantup.com/)/[Ansible](http://docs.ansible.com/intro_installation.html#latest-releases-via-pip) to test deployment configuration. After ensuring both packages are installed, type `vagrant up` to deploy to a fresh image or `vagrant reload --provision` to test re-deployment. Start from scratch each time with `vagrant destroy -f && vagrant up`.
