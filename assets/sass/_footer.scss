@@ -124,6 +124,7 @@
 .donate {
   font-size: 14px;
   display: block;
+  color: $foreground;
 
   @include breakpoint(portrait) {
     font-size: 16px;
