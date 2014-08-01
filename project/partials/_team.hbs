@@ -4,17 +4,19 @@
 
   <div class="team__wrapper">
 
-    <h2 class="team__title">How does it work?</h2>
+    <h2 class="team__title">The Hive Team</h2>
 
-    {{#each team}}
-
-      <img src="assets/img/{{this.image}}" />
-      {{this.name}}
-
-
-    {{/each}}
+    <div class="team__members">
+      {{#each team}}
+        <div class="_member">
+          <div class="_img">
+            <img src="assets/img/{{this.image}}" />
+          </div>
+          <h2>{{this.name}}</h2>
+        </div>
+      {{/each}}
+    </div>
 
   </div>
 
 </div>
-
