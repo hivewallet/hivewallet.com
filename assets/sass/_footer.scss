@@ -23,11 +23,14 @@
 .footer__icons {
   display: flex;
   justify-content: space-between;
-  max-width: 250px;
+  max-width: 350px;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
 
+  @include breakpoint(portrait) {
+    max-width: 400px;
+  }
 
   ._icon {
     width: 50px;
@@ -35,6 +38,11 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    @include breakpoint(portrait) {
+      width: 60px;
+      height: 60px;
+    }
   }
 }
 
@@ -45,51 +53,52 @@
   input {
     -webkit-appearance: none;
     background-color: $yellow;
-    border: 1px solid darken($yellow, 10%);
+    border: 1px solid darken($yellow, 20%);
     border-radius: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     padding-left: 10px;
-    color: darken($yellow, 20%);
+    padding-top: 5px;
+    color: $foreground;
     width: 70%;
     float: left;
-    height: 50px;
-
+    height: 60px;
 
     &:focus {
       outline: none;
-      border: 1px solid darken($yellow, 20%);
+      border: 1px solid $foreground;
     }
   }
 
   input[type="submit"] {
     margin-left: -1px;
     width: 30%;
-    height: 50px;
+    height: 60px;
     float: left;
     background-color: $orange;
-    border: 1px solid darken($yellow, 10%);
+    border: 1px solid darken($yellow, 20%);
     border-radius: 0;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 4px;
   }
 
 }
 
 ::-webkit-input-placeholder {
-   color: darken($yellow, 10%);
+   color: darken($yellow, 20%);
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: darken($yellow, 10%);
+   color: darken($yellow, 20%);
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: darken($yellow, 10%);
+   color: darken($yellow, 20%);
 }
 
 :-ms-input-placeholder {
-   color: darken($yellow, 10%);
+   color: darken($yellow, 20%);
 }
 
 .i-twitter {
@@ -104,7 +113,19 @@
   background-image: url('../img/github.png')
 }
 
-.copyright {
+.i-skype {
+  background-image: url('../img/skype.png')
+}
+
+.i-angel {
+  background-image: url('../img/angel.png')
+}
+
+.donate {
   font-size: 14px;
-  color: #997800;
+  display: block;
+
+  @include breakpoint(portrait) {
+    font-size: 16px;
+  }
 }
