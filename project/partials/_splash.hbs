@@ -7,9 +7,9 @@
 
     <div class="nav-br">|</div>
 
-{{!--     <a href="#ios" onClick="trackEvent('Navigation', 'Looking for ios');" class="nav__link">iOS</a>
+   <a href="#ios" onClick="trackEvent('Navigation', 'Looking for ios');" class="nav__link">iOS</a>
 
-    <div class="nav-br">|</div> --}}
+    <div class="nav-br">|</div>
 
     <a href="#native" onClick="trackEvent('Navigation', 'Looking for osx');" class="nav__link _osx">OS X</a>
 
@@ -20,16 +20,15 @@
 
   <div class="splash__logo"></div>
   <h2 class="splash__title">Meet the new Hive</h2>
-  <p class="splash__text">A human-friendly digital token wallet for multiple platforms.{{!-- , now on iOS --}}</p>
+  <p class="splash__text">A human-friendly digital token wallet for multiple platforms, now on iOS!</p>
+
+  <a id="ios" class="appstore__link" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=906990301&mt=8" onClick="trackEvent('Exit', 'iOS');" target="_blank"></a>
 
   <div class="splash__image"></div>
-  <div id="web" class="splash__btn">
-    <a href="http://web.hivewallet.com" onClick="trackEvent('Exit', 'Hive Web');" target="_blank">Create a wallet</a>
-  </div>
 
-{{!--   <div id="ios" class="splash__btn">
-    <a id="ios" href="#" onClick="trackEvent('Exit', 'iOS');" target="_blank">Download the app</a>
-  </div> --}}
+  <div id="web" class="splash__btn">
+    <a href="http://web.hivewallet.com" onClick="trackEvent('Exit', 'Hive Web');" target="_blank">Create a web wallet</a>
+  </div>
 
 </div>
 

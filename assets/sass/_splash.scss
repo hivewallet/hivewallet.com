@@ -6,8 +6,8 @@
   height: 42px;
   justify-content: center;
   padding: 10px;
-  padding-left: 40px;
-  padding-right: 48px;
+  padding-left: 30px;
+  padding-right: 50px;
   margin: 10px;
   max-width: 300px;
   margin: 0 auto;
@@ -19,8 +19,8 @@
   @include breakpoint(portrait) {
     max-width: 400px;
     height: 64px;
-    padding-left: 60px;
-    padding-right: 68px;
+    padding-left: 40px;
+    padding-right: 60px;
     padding-top: 20px;
     margin-top: -10px;
   }
@@ -78,7 +78,28 @@
   padding-bottom: 30px;
 
   background: $background; /* Old browsers */
-  background: linear-gradient(15deg,  $yellow 0px,$yellow 40%,$background 40%,$background 100%); /* W3C */
+  background-image: url('../img/splash_bg.svg');
+  background-size:  800px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  @include breakpoint(portrait) {
+    background-size:  1200px;
+  }
+
+  @include breakpoint(landscape) {
+    background-size:  100%;
+  }
+
+  @include breakpoint(wide) {
+    background-position: bottom -100px center;
+  }
+
+  @include breakpoint(wider) {
+    background-position: bottom -200px center;
+  }
+
+  //linear-gradient(15deg,  $yellow 0px,$yellow 40%,$background 40%,$background 100%); /* W3C */
 }
 
 .splash__logo {
@@ -105,14 +126,16 @@
   max-width: 280px;
   margin: 0 auto;
   line-height: 1.3;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  @include breakpoint(portrait) {
+    max-width: 300px;
+  }
 }
 
 .splash__image {
   height: 300px;
   max-width: 400px;
   margin: 0 auto;
-  margin-bottom: 30px;
   background-image: url("../img/iphones_hero.png");
   background-size: contain;
   background-position: center;
@@ -130,6 +153,16 @@
     max-width: 250px;
     margin: 0 auto;
   }
+}
+
+.appstore__link {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 135px;
+  height: 40px;
+  background-image: url('../img/appstore_icon.svg');
+  background-size: 135px 40px;
 }
 
 // ------------------------------------- //
