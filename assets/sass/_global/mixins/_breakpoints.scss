@@ -9,6 +9,8 @@ $mquery: false !default;
 
 $portrait: 48em;    // based on ipad ~ 768px
 $landscape: 64em;   // based on ipad ~ 1024px
+$wide: 80em;
+$wider: 100em;
 
 @mixin breakpoint($point) {
 
@@ -16,7 +18,7 @@ $landscape: 64em;   // based on ipad ~ 1024px
 
     $width: $portrait;
 
-    @media (min-width: $width) { 
+    @media (min-width: $width) {
       $mquery: true;
       @content;
       $mquery: false;
@@ -27,10 +29,32 @@ $landscape: 64em;   // based on ipad ~ 1024px
 
     $width: $landscape;
 
-    @media (min-width: $width) { 
+    @media (min-width: $width) {
       $mquery: true;
       @content;
       $mquery: false;
-    } 
+    }
+  }
+
+  @if $point == wide {
+
+    $width: $wide;
+
+    @media (min-width: $width) {
+      $mquery: true;
+      @content;
+      $mquery: false;
+    }
+  }
+
+  @if $point == wider {
+
+    $width: $wider;
+
+    @media (min-width: $width) {
+      $mquery: true;
+      @content;
+      $mquery: false;
+    }
   }
 }
