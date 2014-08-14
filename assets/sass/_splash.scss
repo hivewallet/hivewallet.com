@@ -126,7 +126,7 @@
   max-width: 280px;
   margin: 0 auto;
   line-height: 1.3;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   @include breakpoint(portrait) {
     max-width: 300px;
   }
@@ -153,6 +153,10 @@
     max-width: 250px;
     margin: 0 auto;
   }
+}
+
+.ios__link__container {
+  padding-top: 20px;
 }
 
 .appstore__link {
