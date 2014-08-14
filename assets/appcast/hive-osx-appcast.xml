@@ -9,6 +9,37 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.3.4</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>fixed a crash in the Send window when amount field is cleared</li>
+                      <li>added a warning on Applications page that <b>we're going to remove all apps in version 1.5</b> - sorry, we have no time to maintain them :(</li>
+                      <li>data stored by apps is now cleared when an app is removed from Hive, and can also be manually deleted using an option from the context menu</li>
+                      <li>added a button in "Debugging Tools" that deletes all data stored by all Hive apps</li>
+                      <li>updated Romanian translation</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Thu, 14 Aug 2014 19:02:10 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.3.4/Hive-1.3.4.zip"
+            sparkle:version="2014081401"
+            sparkle:shortVersionString="1.3.4"
+            length="18647301"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEQCIAKTIOPxYpkPOD/hKOfVDFYnL4g1DSLSNvW8sWY+EUGPAiBOWfaCJDz3Zdym1td5iY0VzmL500uTjSz8/yk6vpi5IA==" />
+        </item>
+
+        <item>
             <title>Hive 1.3.3</title>
             <description>
                 <![CDATA[
