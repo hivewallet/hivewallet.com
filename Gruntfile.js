@@ -158,7 +158,17 @@ module.exports = function(grunt) {
             dest: 'public/production/'
           }
         ]
-      }
+      },
+      shippable: {
+        files: [
+          {
+            expand: true,
+            cwd: 'public/production',
+            src: ['**/*'],
+            dest: 'public/shippable'
+          }
+        ]
+      },
     },
 
   // --------------------------------------------------------------------------------- \\
@@ -242,8 +252,9 @@ module.exports = function(grunt) {
   // --------------------------------------------------------------------------------- \\
 
     clean: {
-      all: ['public/dev/', 'public/production/'],
-      html: ['public/dev/**/*.html', 'public/production/**/*.html']
+      all: ['public/dev/', 'public/production/', 'public/shippable/'],
+      html: ['public/dev/**/*.html', 'public/production/**/*.html'],
+      shippable: ['public/shippable/']
     }
 
   });
@@ -265,4 +276,7 @@ module.exports = function(grunt) {
 
   // Default task to be run.
   grunt.registerTask('default', ['clean:all', 'assemble', 'sass', 'concat', 'autoprefixer', 'copy']);
+
+  // shippable task
+  grunt.registerTask('ship', ['clean:shippable', 'copy:shippable']);
 };
