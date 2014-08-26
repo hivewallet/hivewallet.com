@@ -1,11 +1,11 @@
 
-# ignore node stuff
+# node stuff
 node_modules
 npm-debug.log
 vendor
 tmp
 
-# ignore hidden stuff
+# hidden stuff
 *.sublime-project
 *.sublime-workspace
 .sass-cache/
@@ -17,5 +17,6 @@ public/
 # ignore credentials to avoid people publishing aws keys
 credentials.json
 
-# vagrant
+# other tools & services
 .vagrant/
+shippable/

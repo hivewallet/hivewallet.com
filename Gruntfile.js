@@ -165,7 +165,7 @@ module.exports = function(grunt) {
             expand: true,
             cwd: 'public/production',
             src: ['**/*'],
-            dest: 'public/shippable'
+            dest: 'shippable'
           }
         ]
       },
@@ -252,9 +252,9 @@ module.exports = function(grunt) {
   // --------------------------------------------------------------------------------- \\
 
     clean: {
-      all: ['public/dev/', 'public/production/', 'public/shippable/'],
+      all: ['public/dev/', 'public/production/', 'shippable/'],
       html: ['public/dev/**/*.html', 'public/production/**/*.html'],
-      shippable: ['public/shippable/']
+      shippable: ['shippable/']
     }
 
   });

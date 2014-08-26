@@ -1,0 +1,39 @@
+
+# Build Environment
+build_environment: Ubuntu 14.04
+
+# language setting
+language: node_js
+
+# version numbers, testing against one version of node
+node_js:
+  - 0.11.10
+
+# only build when certain Git branches are updated
+branches:
+  only:
+    - master
+
+# node environment
+env:
+  global:
+    - NODE_ENV=dev
+    - SLACK_ORG=hivewallet PROJECT=hivewallet-com
+
+# npm install runs by default, but we need to specify global installs ourselves
+before_install:
+ - npm install -g grunt-cli #bower
+
+# the build scripts
+script:
+ # - bower --allow-root install 
+ - grunt
+ - grunt ship
+
+# Notification
+notifications:
+  email:
+    recipients:
+      - taylor@hivewallet.com
+    on_success: always
+    on_failure: change
