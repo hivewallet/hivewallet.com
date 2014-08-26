@@ -1,3 +1,5 @@
+[![Build Status](https://api.shippable.com/projects/53fa1c36cd0ccca206150052/badge/master)](https://www.shippable.com/projects/53fa1c36cd0ccca206150052)
+
 # hivewallet.com
 
 New launch site for the initial release of Hive's multi-currency HD wallet for web.
