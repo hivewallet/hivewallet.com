@@ -272,7 +272,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-grunticon');
-  grunt.loadNpmTasks('grunt-aws');
+  // grunt.loadNpmTasks('grunt-aws');
 
   // Default task to be run.
   grunt.registerTask('default', ['clean:all', 'assemble', 'sass', 'concat', 'autoprefixer', 'copy']);
