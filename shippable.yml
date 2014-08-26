@@ -17,7 +17,7 @@ branches:
 # node environment
 env:
   global:
-    - NODE_ENV=dev
+    - NODE_ENV=production
     - SLACK_ORG=hivewallet PROJECT=hivewallet-com
 
 # npm install runs by default, but we need to specify global installs ourselves
