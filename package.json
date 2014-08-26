@@ -19,7 +19,7 @@
     "grunt-autoprefixer": "0.4.1",
     "node-static": "0.7.1",
     "open": "0.0.4",
-    "grunt-sass": "0.14.0",
+    "grunt-sass": "0.13.1",
     "grunt-grunticon": "1.0.0"
   }
 }
