@@ -22,7 +22,7 @@ env:
 
 # npm install runs by default, but we need to specify global installs ourselves
 before_install:
- - npm install -g grunt-cli #bower
+ - npm install -g grunt-cli grunt-aws #bower
 
 # the build scripts
 script:
