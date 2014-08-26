@@ -7,7 +7,7 @@ language: node_js
 
 # version numbers, testing against one version of node
 node_js:
-  - 0.11.10
+  - 0.10.31
 
 # only build when certain Git branches are updated
 branches:
@@ -22,18 +22,9 @@ env:
 
 # npm install runs by default, but we need to specify global installs ourselves
 before_install:
- - npm install -g grunt-cli grunt-aws #bower
+ - npm install -g grunt-cli grunt-aws
 
 # the build scripts
 script:
- # - bower --allow-root install 
  - grunt
  - grunt ship
-
-# Notification
-notifications:
-  email:
-    recipients:
-      - taylor@hivewallet.com
-    on_success: always
-    on_failure: change
