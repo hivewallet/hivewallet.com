@@ -17,12 +17,11 @@ branches:
 # node environment
 env:
   global:
-    - NODE_ENV=production
-    - SLACK_ORG=hivewallet PROJECT=hivewallet-com
+    - NODE_ENV=dev
 
 # npm install runs by default, but we need to specify global installs ourselves
 before_install:
- - npm install -g grunt-cli grunt-aws
+ - npm install -g grunt-cli grunt-aws node-gyp
 
 # the build scripts
 script:
