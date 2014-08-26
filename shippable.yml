@@ -7,7 +7,8 @@ language: node_js
 
 # version numbers, testing against one version of node
 node_js:
-  - 0.10.31
+  - "0.11"
+  - "0.10"
 
 # only build when certain Git branches are updated
 branches:
@@ -21,7 +22,7 @@ env:
 
 # npm install runs by default, but we need to specify global installs ourselves
 before_install:
- - npm install -g grunt-cli grunt-aws node-gyp
+ - npm install -g grunt-cli
 
 # the build scripts
 script:
