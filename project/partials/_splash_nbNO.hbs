@@ -1,0 +1,41 @@
+{{!-- menu and hero image --}}
+
+<div class="splash">
+
+  <div class="nav" id="button">
+    <a href="#web" onClick="trackEvent('Navigation', 'Looking for web');" class="nav__link _web">Hive Web</a>
+
+    <div class="nav-br">|</div>
+
+   <a href="#ios" onClick="trackEvent('Navigation', 'Looking for ios');" class="nav__link">iOS</a>
+
+    <div class="nav-br">|</div>
+
+    <a href="#native" onClick="trackEvent('Navigation', 'Looking for osx');" class="nav__link _osx">Mac</a>
+
+    <div class="nav-br">|</div>
+
+    <a href="#native" onClick="trackEvent('Navigation', 'Looking for android');" class="nav__link">Android</a>
+  </div>
+
+  <div class="splash__logo"></div>
+  <h2 class="splash__title">Møt nye Hive!</h2>
+  <p class="splash__text">En menneskevennlig digital valuta lommebok for flere plattformer, nå tilgjengelig på iOS!</p>
+
+  <div id="ios" class="ios__link__container">
+    <a class="appstore__link" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=906990301&mt=8" onClick="trackEvent('Exit', 'iOS');" target="_blank"></a>
+  </div>
+
+  <div class="splash__image"></div>
+
+  <div id="web" class="splash__btn">
+    <a href="http://web.hivewallet.com" onClick="trackEvent('Exit', 'Hive Web');" target="_blank">Lag en webbasert lommebok</a>
+  </div>
+
+</div>
+
+<div class="nextbox">
+  <a href="#intro" class="nextbox__icon">
+    <span class="_icon i-arrow-down"></span>
+  </a>
+</div>
