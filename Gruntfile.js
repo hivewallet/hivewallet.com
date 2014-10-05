@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 
     concat: {
       js: {
-        src: ["assets/js/libs/*.js", "assets/js/*.js"],
+        src: ["assets/js/libs/jquery-2.*.js", "assets/js/libs/i18next-1.*.js", "assets/js/*.js"],
         dest: "public/production/assets/js/app.js"
       },
     },
@@ -156,6 +156,22 @@ module.exports = function(grunt) {
             cwd: 'assets/appcast',
             src: ['*.xml'],
             dest: 'public/production/'
+          }
+        ]
+      },
+      translations: {
+        files: [
+          {
+            expand: true,
+            cwd: 'assets/locales',
+            src: ['*.json'],
+            dest: 'public/dev/locales/'
+          },
+          {
+            expand: true,
+            cwd: 'assets/locales',
+            src: ['*.json'],
+            dest: 'public/production/locales/'
           }
         ]
       },
