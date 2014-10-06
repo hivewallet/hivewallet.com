@@ -2,7 +2,8 @@ var options = { lng: "nb-no",
                resGetPath: 'locales/__ns__-__lng__.json',
                defaultValueFromContent: false,
                useDataAttrOptions: true,
-               debug: true };
+               debug: true,
+               fallbackLng: 'en-us' };
 
 
 
@@ -43,4 +44,6 @@ i18n.init(options).done(function() {
   $('.footer__title').i18n();
   $('.footer__text').i18n();
   $('.donate').i18n();
+  $('#mce-EMAIL').i18n();
+  $('#mc-embedded-subscribe').i18n();
 });

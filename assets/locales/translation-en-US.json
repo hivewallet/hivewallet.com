@@ -1,37 +1,53 @@
-{ 
-  "splash__title": "Meet the new Hive",
-  "splash__text": "A human-friendly digital token wallet for multiple platforms, now on iOS!",
-  "splash__btn": "Create a web wallet",
+{
+  "page_title": "Hive – A human-friendly digital currency wallet for multiple platforms | Bitcoin Wallet | Litecoin Wallet",
 
-  "intro__title": "Why Use Hive?",
-  "intro_feature_simple_title": "Simple",
-  "intro_feature_simple_text": "Get started in seconds and access your wallet from any device.",
-  "intro_feature_secure_title": "Secure",
-  "intro_feature_secure_text": "Hive is a HD Wallet with secure passphrase generation.",
-  "intro_feature_multitoken_title": "Multi-Token",
-  "intro_feature_multitoken_text": "Supports both Bitcoin and Litecoin, with more coming soon!",
-  "intro_feature_waggle_title": "Waggle",
-  "intro_feature_waggle_text": "Use the Waggle location feature for transactions with nearby Hive users.",
+  "splash": {
+    "title": "Meet the new Hive",
+    "text": "A human-friendly digital token wallet for multiple platforms, now on iOS!",
+    "btn": "Create a web wallet"
+  },
 
-  "tech__title": "How does it work?",
-  "tech_text_1": "Unlike hosted wallets, the new Hive does not store your tokens on a server anywhere. With just your passphrase, you can access your tokens from the iOS app, or via modern mobile and desktop browsers.",
-  "tech_text_2": "There is no need to back up your wallet, just your passphrase. Writing it down and keeping it safe, or storing it in a password vault application is essential. If you lose it, you will lose your tokens.",
-  "tech_text_3": "For more information on how Hive works, please take a look at our FAQ.",
+  "intro": {
+    "title": "Why Use Hive?",
+    "feature_simple_title": "Simple",
+    "feature_simple_text": "Get started in seconds and access your wallet from any device.",
+    "feature_secure_title": "Secure",
+    "feature_secure_text": "Hive is a HD Wallet with secure passphrase generation.",
+    "feature_multitoken_title": "Multi-Token",
+    "feature_multitoken_text": "Supports both Bitcoin and Litecoin, with more coming soon!",
+    "feature_waggle_title": "Waggle",
+    "feature_waggle_text": "Use the Waggle location feature for transactions with nearby Hive users."
+  },
 
-  "team__title": "The Hive Team",
+  "tech": {
+    "title": "How does it work?",
+    "text_1": "Unlike hosted wallets, the new Hive does not store your tokens on a server anywhere. With just your passphrase, you can access your tokens from the iOS app, or via modern mobile and desktop browsers.",
+    "text_2": "There is no need to back up your wallet, just your passphrase. Writing it down and keeping it safe, or storing it in a password vault application is essential. If you lose it, you will lose your tokens.",
+    "text_3": "For more information on how Hive works, please take a look at our FAQ."
+  },
 
-  "native__title": "Other Hive Products",
-  "native__text": "While you can share wallets between Hive iOS and Hive Web, please be aware that they will not work with Hive for Android or Mac, as these apps are built with different architectures. For more information see the Wiki.",
-  "native_mac_title": "Mac",
-  "native_mac_text": "Featuring BIP70 Payment Protocol support & more.",
-  "native_mac_download": "Download Hive for Mac",
-  "native_mac_version": "Current version: 1.4",
-  "native_android_title": "Android",
-  "native_android_text": "Featuring QR code scanner, NFC support & more.",
-  "native_android_download": "Download Hive Android",
-  "native_android_version": "Current version: 0.4.1.3.52",
+  "team": {
+    "title": "The Hive Team"
+  },
 
-  "footer__title": "Connect with Hive",
-  "footer__text": "Keen to keep on top of what’s happening in the Hive universe? Give us your email, and we’ll send you only important stuff about Hive. Jump into our open Skype channel for a chat, or give us a shout on social media.",
-  "footer__donate": "Want to help support Hive? Donate BTC"
+  "native": {
+    "title": "Other Hive Products",
+    "text": "While you can share wallets between Hive iOS and Hive Web, please be aware that they will not work with Hive for Android or Mac, as these apps are built with different architectures. For more information see the Wiki.",
+    "mac_title": "Mac",
+    "mac_text": "Featuring BIP70 Payment Protocol support & more.",
+    "mac_download": "Download Hive for Mac",
+    "mac_version": "Current version: 1.4",
+    "android_title": "Android",
+    "android_text": "Featuring QR code scanner, NFC support & more.",
+    "android_download": "Download Hive Android",
+    "android_version": "Current version: 0.4.1.3.52"
+  },
+
+  "footer": {
+    "title": "Connect with Hive",
+    "text": "Keen to keep on top of what’s happening in the Hive universe? Give us your email, and we’ll send you only important stuff about Hive. Jump into our open Skype channel for a chat, or give us a shout on social media.",
+    "donate": "Want to help support Hive? Donate BTC",
+    "email_address": "Email address",
+    "sign_up": "Sign up"
+  }
 }

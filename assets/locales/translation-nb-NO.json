@@ -1,37 +1,49 @@
-{ 
-  "splash__title": "Møt nye Hive!",
-  "splash__text": "En menneskevennlig digital valuta lommebok for flere plattformer, nå tilgjengelig på iOS!",
-  "splash__btn": "Lag en webbasert lommebok",
+{
+  "splash": {
+    "title": "Møt nye Hive!",
+    "text": "En menneskevennlig digital valuta lommebok for flere plattformer, nå tilgjengelig på iOS!",
+    "btn": "Lag en webbasert lommebok"
+  },
 
-  "intro__title": "Hvorfor Bruke Hive?",
-  "intro_feature_simple_title": "Simple",
-  "intro_feature_simple_text": "Kom igang på sekunder og få tilgang til din lommebok fra en hvilken som helst enhet.",
-  "intro_feature_secure_title": "Secure",
-  "intro_feature_secure_text": "Hive er en HD (Hierchical Deterministic) lommebok med sikker passordfrase generering.",
-  "intro_feature_multitoken_title": "Multi-Token",
-  "intro_feature_multitoken_text": "Støtter både Bitcoin og Litecoin, med flere kommende i snart!",
-  "intro_feature_waggle_title": "Waggle",
-  "intro_feature_waggle_text": "Bruk stedtjenestene i Waggle for å utføre transaksjoner med Hive-brukere nær deg.",
+  "intro": {
+    "title": "Hvorfor Bruke Hive?",
+    "feature_simple_title": "Simple",
+    "feature_simple_text": "Kom igang på sekunder og få tilgang til din lommebok fra en hvilken som helst enhet.",
+    "feature_secure_title": "Secure",
+    "feature_secure_text": "Hive er en HD (Hierchical Deterministic) lommebok med sikker passordfrase generering.",
+    "feature_multitoken_title": "Multi-Token",
+    "feature_multitoken_text": "Støtter både Bitcoin og Litecoin, med flere kommende i snart!",
+    "feature_waggle_title": "Waggle",
+    "feature_waggle_text": "Bruk stedtjenestene i Waggle for å utføre transaksjoner med Hive-brukere nær deg."
+  },
 
-  "tech__title": "Hvordan fungerer det?",
-  "tech_text_1": "I motsetning til lommebøker som lagres hos en tilbyder, så lagrer nye Hive ikke dine midler på en server noe sted. Med din passordfrase kan du få tilgang til dine midler fra iOS appen eller via en moderne nettlser på din mobil eller datamaskin.",
-  "tech_text_2": "Sikkerhetskopiering av din lommebok behøves ikke, kun din passordfrase kreves. Nedskrivning og sikker lagring eller lagring av den i et passordhånteringsprogram er ytterst viktig. Om du mister passordfrasen vil du samtidig miste dine midler.",
-  "tech_text_3": "For mer informasjon om hvordan Hive fungerer, vennligst ta en titt på vår FAQ.",
+  "tech": {
+    "title": "Hvordan fungerer det?",
+    "text_1": "I motsetning til lommebøker som lagres hos en tilbyder, så lagrer nye Hive ikke dine midler på en server noe sted. Med din passordfrase kan du få tilgang til dine midler fra iOS appen eller via en moderne nettlser på din mobil eller datamaskin.",
+    "text_2": "Sikkerhetskopiering av din lommebok behøves ikke, kun din passordfrase kreves. Nedskrivning og sikker lagring eller lagring av den i et passordhånteringsprogram er ytterst viktig. Om du mister passordfrasen vil du samtidig miste dine midler.",
+    "text_3": "For mer informasjon om hvordan Hive fungerer, vennligst ta en titt på vår FAQ."
+  },
 
-  "team__title": "Hive-Teamet",
+  "team": {
+    "team_title": "Hive-Teamet"
+  },
 
-  "native__title": "Andre Hive-Produkter",
-  "native__text": "Det er mulig å dele lommebøker mellom Hive iOS og Hive Web, vennligst vær klar over at de ikke vil fungere med Hive for Android eller Mac. For mer informasjon se Wikien.",
-  "native_mac_title": "Mac",
-  "native_mac_text": "Støtter BIP70 Betalingsprotokoll (Payment Protocol) & mer.",
-  "native_mac_download": "Last ned Hive for Mac",
-  "native_mac_version": "Nåværende version: 1.4",
-  "native_android_title": "Android",
-  "native_android_text": "Støtter QR-kode scanning, NFC & mer.",
-  "native_android_download": "Last ned Hive Android",
-  "native_android_version": "Nåværende version: 0.4.1.3.52",
+  "native": {
+    "title": "Andre Hive-Produkter",
+    "text": "Det er mulig å dele lommebøker mellom Hive iOS og Hive Web, vennligst vær klar over at de ikke vil fungere med Hive for Android eller Mac. For mer informasjon se Wikien.",
+    "mac_title": "Mac",
+    "mac_text": "Støtter BIP70 Betalingsprotokoll (Payment Protocol) & mer.",
+    "mac_download": "Last ned Hive for Mac",
+    "mac_version": "Nåværende version: 1.4",
+    "android_title": "Android",
+    "android_text": "Støtter QR-kode scanning, NFC & mer.",
+    "android_download": "Last ned Hive Android",
+    "android_version": "Nåværende version: 0.4.1.3.52"
+  },
 
-  "footer__title": "Koble til med Hive",
-  "footer__text": "Lyst å vite hva som skjer i Hive-universet? Gi oss din epost så sender vi deg viktige ting om Hive. Eller, hopp inn i vår åpne Skype-kanal for å chatte eller gi oss et vink på sosiale medier.",
-  "footer__donate": "Lyst å hjelpe bygge Hive? Donér BTC"
+  "footer": {
+    "title": "Koble til med Hive",
+    "text": "Lyst å vite hva som skjer i Hive-universet? Gi oss din epost så sender vi deg viktige ting om Hive. Eller, hopp inn i vår åpne Skype-kanal for å chatte eller gi oss et vink på sosiale medier.",
+    "donate": "Lyst å hjelpe bygge Hive? Donér BTC"
+  }
 }
