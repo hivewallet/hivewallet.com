@@ -1,5 +1,5 @@
 var options = { lng: "nb-no",
-               resGetPath: 'locales/__ns__-__lng__.json',
+               resGetPath: 'assets/locales/__ns__-__lng__.json',
                defaultValueFromContent: false,
                useDataAttrOptions: true,
                debug: true,

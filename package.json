@@ -12,14 +12,16 @@
   "dependencies": {
     "assemble": "0.4.7",
     "grunt": "0.4.4",
+    "grunt-autoprefixer": "0.4.1",
     "grunt-contrib-clean": "0.5.0",
-    "grunt-contrib-watch": "0.5.3",
     "grunt-contrib-concat": "0.3.0",
     "grunt-contrib-copy": "0.4.1",
-    "grunt-autoprefixer": "0.4.1",
-    "node-static": "0.7.1",
-    "open": "0.0.4",
+    "grunt-contrib-i18next": "0.0.1",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-grunticon": "1.0.0",
     "grunt-sass": "0.13.1",
-    "grunt-grunticon": "1.0.0"
+    "i18n": "^0.5.0",
+    "node-static": "0.7.1",
+    "open": "0.0.4"
   }
 }

@@ -8,6 +8,7 @@
 
 'use strict';
 
+
 module.exports = function(grunt) {
 
   // Project configuration.
@@ -159,22 +160,38 @@ module.exports = function(grunt) {
           }
         ]
       },
-      translations: {
-        files: [
+      i18next: {
+        locales: [
           {
             expand: true,
             cwd: 'assets/locales',
             src: ['*.json'],
-            dest: 'public/dev/locales/'
+            dest: 'public/dev/assets/locales/'
           },
           {
             expand: true,
             cwd: 'assets/locales',
             src: ['*.json'],
-            dest: 'public/production/locales/'
+            dest: 'public/production/assets/locales/'
           }
         ]
       },
+      // translations: {
+      //   files: [
+      //     {
+      //       expand: true,
+      //       cwd: 'assets/locales',
+      //       src: ['*.json'],
+      //       dest: 'public/dev/locales/'
+      //     },
+      //     {
+      //       expand: true,
+      //       cwd: 'assets/locales',
+      //       src: ['*.json'],
+      //       dest: 'public/production/locales/'
+      //     }
+      //   ]
+      // },
       shippable: {
         files: [
           {
@@ -289,6 +306,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-grunticon');
   // grunt.loadNpmTasks('grunt-aws');
+  grunt.loadNpmTasks('grunt-contrib-i18next');
 
   // Default task to be run.
   grunt.registerTask('default', ['clean:all', 'assemble', 'sass', 'concat', 'autoprefixer', 'copy']);
