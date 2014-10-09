@@ -33,8 +33,10 @@
 
 .native__features {
   @extend .features;
+  width: 280px;
 
   .feature__item {
+    width: 280px;
     ._link {
       @extend .jigsaw-medium;
       display: inline-block;
