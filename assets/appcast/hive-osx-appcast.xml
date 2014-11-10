@@ -9,6 +9,36 @@
         <language>en</language>
 
         <item>
+            <title>Hive 1.4.1</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                      h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                      ul { font-family: Helvetica; font-size: 10pt; }
+                      li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                      <li>you can now export your private key to a file and add it to another wallet app</li>
+                      <li>minor UI tweaks for Yosemite (fonts etc.)</li>
+                      <li>updated Russian translation</li>
+                      <li>if by any chance you still have an unencrypted wallet, you need to set a password before doing anything else</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 10 Nov 2014 13:28:01 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-osx/releases/download/1.4.1/Hive-1.4.1s.zip"
+            sparkle:version="2014111001"
+            sparkle:shortVersionString="1.4.1"
+            length="19232040"
+            type="application/octet-stream"
+            sparkle:dsaSignature="MEUCIEJcvZalWy1i6v2pdeingA/zfCyPoyBTydVgzjUP3DrHAiEApvdHlCUp0+YDBw+v6DrCHBtOEhYW75Vco7eSJNK03e8=" />
+        </item>
+
+        <item>
             <title>Hive 1.4</title>
             <description>
                 <![CDATA[
