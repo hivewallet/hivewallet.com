@@ -3,25 +3,26 @@
 .nav {
   position: relative;
   display: flex;
-  height: 42px;
+  height: 28px;
   justify-content: center;
   padding: 10px;
-  padding-left: 30px;
-  padding-right: 50px;
+  padding-top: 5px;
+  padding-left: 32px;
+  padding-right: 38px;
   margin: 10px;
-  max-width: 300px;
+  max-width: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
   background-image: url('/assets/img/banner.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
   @include breakpoint(portrait) {
-    max-width: 400px;
-    height: 64px;
-    padding-left: 40px;
-    padding-right: 60px;
-    padding-top: 20px;
+    max-width: 320px;
+    height: 44px;
+    padding-left: 64px;
+    padding-right: 72px;
+    padding-top: 15px;
     margin-top: -10px;
   }
 
@@ -60,6 +61,7 @@
 
     @include breakpoint(portrait) {
       font-size: 15px;
+      padding-right: 5px;
     }
   }
 
