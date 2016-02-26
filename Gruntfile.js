@@ -147,15 +147,15 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: 'assets/appcast',
-            src: ['*.xml'],
-            dest: 'public/dev/'
+            cwd: 'assets/feed/',
+            src: ['*'],
+            dest: 'public/dev/feed/'
           },
           {
             expand: true,
-            cwd: 'assets/appcast',
-            src: ['*.xml'],
-            dest: 'public/production/'
+            cwd: 'assets/feed/',
+            src: ['*'],
+            dest: 'public/production/feed/'
           }
         ]
       },
