@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Hive Changelog</title>
+        <link>https://mac.hivewallet.com/feed/hive-mac</link>
+        <description>What's new in Hive</description>
+        <language>en</language>
+
+        <item>
+            <title>Hive 1.5</title>
+            <description>
+                <![CDATA[
+                    <style type="text/css">
+                    h2 { font-family: Helvetica; font-weight: bold; font-size: 10pt; }
+                    ul { font-family: Helvetica; font-size: 10pt; }
+                    li { margin: 5px 0px; }
+                    </style>
+
+                    <h2>What's changed:</h2>
+
+                    <ul>
+                    <li>added an announcement that Hive is not maintained anymore</li>
+                    <li>added available balance display to send window</li>
+                    <li>removed applications tab</li>
+                    <li>minor fixes</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 01 Mar 2016 22:48:53 -0000</pubDate>
+            <enclosure
+            url="https://github.com/hivewallet/hive-mac/releases/download/1.5/Hive-1.5.zip"
+            sparkle:version="2016022705"
+            sparkle:shortVersionString="1.5"
+            length="16318700"
+            type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
