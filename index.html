@@ -7,6 +7,10 @@
     <meta name="robots" content="index, follow, noodp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" href="/images/favicon.ico">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
     <style type="text/css">
       @font-face {
@@ -40,31 +44,102 @@
       }
 
       h1 {
-        font-size: 80px;
         line-height: 1;
-        margin: 0 0 85px;
       }
 
       p {
-        font-size: 36px;
         line-height: 1.3;
         margin: 0;
       }
 
-      p + p {
-        margin-top: 115px;
-      }
-
       .hive-logo {
         display: block;
-        margin: 0 auto 120px;
+        margin: 0 auto;
       }
 
       .container {
         margin: 0 auto;
-        padding: 140px;
         text-align: center;
-        width: 760px;
+      }
+
+
+      /* A bit of a flexibility */
+
+      h1 {
+        font-size: 40px;
+        line-height: 1.1;
+        margin: 0 0 55px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+
+      p + p {
+        margin-top: 60px;
+      }
+
+      .hive-logo {
+        height: 100px;
+        margin-bottom: 65px;
+        width: 100px;
+      }
+
+      .container {
+        padding: 85px 15px;
+      }
+
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 56px;
+          line-height: 1;
+          margin: 0 0 60px;
+        }
+
+        p {
+          font-size: 25px;
+        }
+
+        p + p {
+          margin-top: 81px;
+        }
+
+        .hive-logo {
+          height: 119px;
+          margin-bottom: 84px;
+          width: 119px;
+        }
+
+        .container {
+          padding: 98px 0;
+          width: 520px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        h1 {
+          font-size: 80px;
+          margin: 0 0 85px;
+        }
+
+        p {
+          font-size: 36px;
+        }
+
+        p + p {
+          margin-top: 115px;
+        }
+
+        .hive-logo {
+          height: 170px;
+          margin-bottom: 120px;
+          width: 170px;
+        }
+
+        .container {
+          padding: 140px 0;
+          width: 760px;
+        }
       }
     </style>
   </head>
