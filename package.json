@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "node-static": "^0.7.7"
+  }
+}
